@@ -1,0 +1,29 @@
+$primaryColor: #ffffff;
+$secondaryColor:#000000;
+$ternaryColor:#e90000;
+
+$primaryBorderColor: #7e7e7e;
+$accentColor: hsl(51, 51%, 44%);
+$fontColorPrimary: #000000;
+$fontColorSecondary: #ffffff;
+$fontColorTernary: #e90000;
+
+// $defaultFont: 'Lato', sans-serif;
+$defaultFont: 'PT Sans', sans-serif;
+$headerLinksFontSize: 20pt;
+$normaFontSize: 12pt;
+$normalWeight: 300;
+$boldWeight: 700;
+
+$minPageHeight: 100vh;
+$minPageWidth: 20rem;
+
+$maxSectionWidth: 1900px;
+
+// $gutter: 2%;
+// $gutterdbl: (2 * $gutter);
+
+// @mixin gradient($startColor, $endColor) {
+//     background: rgb(0,0,0);
+//     background: linear-gradient(180deg, $startColor 0%, rgba(143,143,143,1) 56%, $endColor 100%);
+// }

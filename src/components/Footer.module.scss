@@ -1,0 +1,67 @@
+@import "../styles/variables";
+
+.footer-container {
+    display: flex;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+    padding: 4px;
+    padding-right: 0px;
+    background-color: transparentize($primaryColor, 0.1);
+    box-shadow: $primaryBorderColor 0px 4px 8px 0px;
+    background-color: $secondaryColor;
+    color: $fontColorSecondary;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    & > div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    label {
+        font-weight: bold;
+        display: block;
+    }
+
+    .address-and-hours {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 12pt;
+        flex-grow: 1;
+
+        & > div {
+            padding: 16px;
+            flex-grow: 1;
+        }
+
+        a {
+            color: $fontColorSecondary;
+        }
+    }
+
+    .social-media-buttons-container {
+        padding: 16px;
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            width: 32px;
+            filter: grayscale(1);
+        }
+
+        li:hover {
+            filter: grayscale(0);
+        }
+
+        .social-media-icon {
+            margin-top: 4px;
+        }
+    }
+}
+

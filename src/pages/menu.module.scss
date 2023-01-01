@@ -1,0 +1,68 @@
+@import "../styles/variables";
+
+.menu-root {
+  padding: 16px;
+
+  & > div {
+    max-width: $maxSectionWidth;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 24pt;
+    margin-left: 4px;
+    padding-bottom: 8px;
+  }
+
+  .food-section-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 32px;
+  }
+
+  .food-card {
+    // max-width: 24rem;
+    padding: 16px;
+    margin: 4px;
+    flex-grow: 1;
+    width: 100%;
+    max-width: 100%;
+    // margin-right: auto;
+
+    .food-name {
+      font-size: 16pt;
+      padding-bottom: 4px;
+    }
+
+    .food-price {
+      font-size: 14pt;
+      padding-bottom: 4px;
+    }
+
+    .home-card-image {
+      border-radius: 16px;
+      max-height: 16rem;
+    }
+  }
+
+  @media (min-width: 375px) {
+    .food-card {
+      width: 47%;
+      max-width: 50%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .food-card {
+      width: 30%;
+      max-width: 33%;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .food-card {
+      width: 22%;
+      max-width: 25%;
+    }
+  }
+}
