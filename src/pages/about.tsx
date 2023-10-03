@@ -26,7 +26,7 @@ const AboutPage: React.FC<PageProps> = () => {
               className={textBlockImage}
               layout="fullWidth" />
 
-            Lim's Nyama Choma is a family owned Kenyan restaurant founded by John Kamau Karanja. The business has been serving patrons with help from John's wife, Caroline Kamau, and his two sons Simon and Steve Kamau since 2013.
+            Lims Lounge & Restaurant is a family owned Kenyan restaurant founded by John Kamau Karanja. The business has been serving patrons with help from John's wife, Caroline Kamau, and his two sons Simon and Steve Kamau since 2013.
           </div>
           <div className={mediaContainer}>
             <h1>Media</h1>

@@ -70,8 +70,8 @@ function Header(props: HeaderProps): React.ReactElement {
     const content = (<>
         <Link to={withPrefix('/')} className={logo}>
             <StaticImage
-                src="../images/ig/logo-v2.jpg"
-                alt="LIM'S CHOMA ZONE LOGO"
+                src="../images/LimsloungeLogo.png"
+                alt="Lims Lounge Logo"
                 placeholder="blurred"
                 layout="constrained"
                 objectFit="contain"

@@ -10,7 +10,7 @@ export default function(props: React.PropsWithChildren<AddressAndHoursProps>) {
       {props.children}
       <div>
         <label>Address</label>
-        <div>Lim's Nyama Choma</div>
+        <div>Lims Lounge & Restaurant</div>
         <div>29100 Pacific Hwy S</div>
         <div>Federal Way, WA 98003</div>
       </div>

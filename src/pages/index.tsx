@@ -31,7 +31,8 @@ function HeroSection() {
           <div style={{ overflow: "visible" }}>
             <div className={heroShotText}>
               <div>
-                <h1>LIMS NYAMA CHOMA</h1>
+                <h1>Lims Lounge & Restaurant
+                </h1>
                 <h2>The Seattle Kamakis</h2>
               </div>
             </div>
@@ -82,10 +83,10 @@ export default IndexPage
 
 export const Head: HeadFC = () => (
   <SEO>
-    <title>Home Page | Lim's Choma Zone</title>
+    <title>Home Page</title>
     <meta
       name="description"
-      content="Lim's Nyama Choma is a family run business offering authentic Kenyan cuizine." />
+      content="Lims Lounge & Restaurant is a family run business offering authentic Kenyan cuizine." />
   </SEO>
 );
 
